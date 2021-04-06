@@ -1,6 +1,6 @@
-﻿Скрипт пишем через nano (в новом окне вписываем все команды, затем сохраняем CTRL+O и CTRL+C затем Enter) 
+﻿
+Скрипт пишем через nano (в новом окне вписываем все команды, затем сохраняем CTRL+O и CTRL+C затем Enter) 
 Для запуска скрипта пишем sh название скрипта.sh и Enter)
-
 
 
 #!bin/bash
@@ -10,8 +10,7 @@ cd Test1
 
 mkdir A B C
 
-cd 
-A
+cd A
 touch Test1.txt Test2.txt Test3.txt A.json B.json
 
 mkdir D F G
